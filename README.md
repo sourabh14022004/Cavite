@@ -1,6 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Cavite
 
-## Getting Started
+Cavite is a premium, modern hiring and professional networking platform designed to eliminate the noise of traditional recruitment. By focusing on **Proof of Work** over generic resumes, Cavite ensures that effort is acknowledged, and silence is never an answer.
+
+_"Find your place, where effort is acknowledged and silence is not an answer. APPLY. WAIT LESS. KNOW MORE."_
+
+## 🌟 Key Features
+
+### For Candidates
+
+- **Proof of Work Portfolios**: Replace your generic resume with a rich, interactive profile that actually showcases what you can do.
+- **0% Ghosting Policy**: Real responses, every time. Accountability is built into the platform.
+- **Strict 14-Day Windows**: Every hiring process concludes within 14 days. No more waiting months to hear back.
+- **Clear Outcomes**: No ambiguity, just results.
+
+### For Recruiters and Companies
+
+- **High-Signal Candidates**: Connect directly with top-tier professionals (Top engineers, product leads, and designers from forward-thinking companies).
+- **Streamlined Process**: Designed to move fast. Wait less, know more.
+- **"Intelligence Delivered"**: Smart matchmaking to ensure mutual fit without the fluff.
+
+## 🚀 Tech Stack
+
+Cavite is built on a modern, high-performance tech stack focused on creating a beautiful, "digital serenity" user experience:
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router) & [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations & Effects**:
+  - [Framer Motion](https://www.framer.com/motion/) for fluid page transitions, snap scrolling, and component micro-interactions.
+  - [Three.js](https://threejs.org/) & [@tsparticles](https://particles.js.org/) for highly interactive background physics and 3D effects.
+  - [Embla Carousel](https://www.embla-carousel.com/) for smooth infinite scrolling marquees of top candidate profiles.
+- **Data Visualization**: [Recharts](https://recharts.org/) for visual analytics.
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+## 💻 Getting Started
 
 First, run the development server:
 
@@ -16,21 +48,20 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Philosophy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Cavite uses a meticulously crafted dark-theme aesthetic (`bg-black`, `text-white`), bringing a sense of "Digital Serenity" to the often stressful job search process. The landing page heavily utilizes CSS snap-scrolling to create an immersive, presentation-like experience, guiding the user through distinct sections:
 
-## Learn More
+- **Digital Serenity Landing**: A calm, particle and gradient-infused introduction.
+- **Intelligence Delivered**: Breaking down the value of focused matching.
+- **Stats Marquee**: Highlighting the absolute commitments (14 days, 0 ghosting) alongside candidate profiles.
+- **Individuals Profile**: Demonstrating the power of the Cavite profile over a standard resume.
+- **Call to Action**: A clear entry point to log in or join.
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions, issues, and feature requests are welcome!
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📜 License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[MIT](LICENSE)
