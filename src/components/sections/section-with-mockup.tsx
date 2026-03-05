@@ -9,6 +9,7 @@ interface SectionWithMockupProps {
   primaryImageSrc: string;
   secondaryImageSrc: string;
   reverseLayout?: boolean;
+  mockupComponent?: React.ReactNode;
 }
 
 export function SectionWithMockup({
@@ -17,6 +18,7 @@ export function SectionWithMockup({
   primaryImageSrc,
   secondaryImageSrc,
   reverseLayout = false,
+  mockupComponent,
 }: SectionWithMockupProps) {
   const containerVariants = {
     hidden: {},
@@ -115,13 +117,17 @@ export function SectionWithMockup({
                     backgroundSize: "100% 100%",
                   }}
                 >
-                  {/* Primary Image */}
-                  <div
-                    className="h-full w-full bg-cover bg-center"
-                    style={{
-                      backgroundImage: `url(${primaryImageSrc})`,
-                    }}
-                  />
+                  {mockupComponent ? (
+                    <div className="h-full w-full">{mockupComponent}</div>
+                  ) : (
+                    /* Primary Image Fallback */
+                    <div
+                      className="h-full w-full bg-cover bg-center"
+                      style={{
+                        backgroundImage: `url(${primaryImageSrc})`,
+                      }}
+                    />
+                  )}
                 </div>
               </div>
             </motion.div>

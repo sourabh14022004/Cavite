@@ -1,4 +1,5 @@
 import { SectionWithMockup } from "./section-with-mockup";
+import { HiringMockup } from "@/components/ui/hiring-mockup";
 
 const exampleData1 = {
   title: (
@@ -32,6 +33,7 @@ export function IntelligenceDeliveredSection() {
       description={exampleData1.description}
       primaryImageSrc={exampleData1.primaryImageSrc}
       secondaryImageSrc={exampleData1.secondaryImageSrc}
+      mockupComponent={<HiringMockup />}
     />
   );
 }

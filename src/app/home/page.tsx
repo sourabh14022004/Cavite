@@ -9,6 +9,7 @@ import { StatsMarqueeSection } from "@/components/sections/stats-marquee-section
 import { IndividualsSection } from "@/components/sections/individuals-section";
 
 import { IntelligenceDeliveredSection } from "@/components/sections/intelligence-delivered-section";
+import { CallToActionSection } from "@/components/sections/cta-section";
 
 const EASE_SMOOTH = [0.4, 0, 0.2, 1] as const;
 
@@ -28,11 +29,15 @@ export default function HomePage() {
 
         <IntelligenceDeliveredSection />
 
-        <HeroSection />
+        {/* <HeroSection /> */}
 
         <StatsMarqueeSection />
 
         <IndividualsSection />
+
+        <section className="shrink-0 snap-start">
+          <CallToActionSection />
+        </section>
 
         <section className="shrink-0 snap-start">
           <FooterWithPaths />

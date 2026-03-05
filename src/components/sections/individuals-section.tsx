@@ -1,4 +1,5 @@
 const ACCENT_INDIGO = "text-indigo-400";
+import ProfileMockup from "@/components/ui/profile-mockup";
 
 export function IndividualsSection() {
   return (
@@ -24,13 +25,9 @@ export function IndividualsSection() {
             portfolio to showcase your proof-of-work.
           </p>
         </div>
-        <div className="mt-10 flex w-full shrink-0 justify-center lg:mt-0 lg:w-1/2 lg:justify-end">
-          <div className="relative w-full max-w-[600px] overflow-hidden rounded-2xl border border-neutral-800 bg-neutral-900/50 shadow-2xl shadow-indigo-500/10 transition-transform duration-500 hover:scale-[1.02]">
-            <img
-              src="/profile-mock2.jpg"
-              alt="Cavite Profile Workspace"
-              className="h-auto w-full object-cover"
-            />
+        <div className="mt-10 flex w-full shrink-0 justify-center lg:mt-0 lg:w-[60%] lg:justify-end">
+          <div className="relative w-full max-w-[850px] overflow-hidden rounded-2xl border border-neutral-800 bg-black shadow-2xl shadow-indigo-500/10 transition-transform duration-500 hover:scale-[1.02] transform lg:scale-[0.9] lg:origin-right">
+            <ProfileMockup />
           </div>
         </div>
       </div>
