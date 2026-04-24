@@ -239,18 +239,11 @@ export function StatsMarqueeSection() {
         </section>
 
         {/* Profile grid -> Marquee (Embla AutoScroll) */}
-        <div className="mt-14 w-full overflow-hidden py-4">
-          <div className="relative mx-auto flex items-center justify-center w-full">
+        <div className="mt-14 w-full overflow-hidden py-10">
+          <div className="relative mx-auto flex items-center justify-center w-full pt-20">
             <Carousel
-              opts={{ loop: true, dragFree: true }}
-              plugins={[
-                AutoScroll({
-                  playOnInit: true,
-                  speed: 0.8,
-                  stopOnMouseEnter: true,
-                  stopOnInteraction: false,
-                }),
-              ]}
+              opts={{ loop: true }}
+              plugins={[AutoScroll({ playOnInit: true })]}
               className="w-full"
             >
               <CarouselContent className="ml-0 w-full flex">

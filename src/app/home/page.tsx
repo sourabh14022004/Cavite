@@ -29,8 +29,6 @@ export default function HomePage() {
 
         <IntelligenceDeliveredSection />
 
-        {/* <HeroSection /> */}
-
         <StatsMarqueeSection />
 
         <IndividualsSection />
